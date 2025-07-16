@@ -59,7 +59,7 @@ IF ('DateLoan') IS NOT NULL
 	DROP TABLE DateLoan;
 
 CREATE TABLE DateLoan(
-    Id_Date INT IDENTITY(1,1),
+    Id_Date INT,
     --Date_Loan DATE,
     Year SMALLINT,
     Quarter TINYINT,
@@ -93,7 +93,7 @@ IF ('TimeCreditLine') IS NOT NULL
 	DROP TABLE TimeCreditLine;
 
 CREATE TABLE TimeCreditLine(
-    Id_Time_Credit INT IDENTITY(1,1),
+    Id_Time_Credit INT,
     --Days_Total INT,
     Years_with_cr_line TINYINT,
     Months_with_cr_line SMALLINT,
