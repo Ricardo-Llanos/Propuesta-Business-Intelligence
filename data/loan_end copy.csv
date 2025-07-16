@@ -1,0 +1,9 @@
+Name,Lastname,Sex,credit.policy,purpose,int.rate,fee,log.annual.inc,dti,fico,days.with.cr.line,revol.bal,revol.util,inq.last.6mths,delinq.2yrs,pub.rec,not.fully.paid,Date_Loan
+María,Núñez,M,1,all_other,0.1379,85.19,10.15812977,14.93,677,5430,1838,73.5,0,0,0,0,2015-01-01
+María,Moreno,F,0,credit_card,0.1253,267.73,10.91508846,16.25,717,5549,55821,95.8,0,0,0,1,2015-01-01
+Pilar,Soto,F,1,debt_consolidation,0.0859,221.28,11.00443046,22.73,742,2550,8441,18.8,2,0,0,0,2015-01-01
+Valentina,Herrera,F,1,all_other,0.1114,656.07,11.22524339,11.31,777,3000,1126,7.9,0,0,0,0,2015-01-01
+Sofía,Jiménez,M,1,all_other,0.1221,266.52,10.51604813,6.21,717,1589,6883,65.6,0,0,0,0,2015-01-02
+Miguel,Herrera,F,0,debt_consolidation,0.0859,47.42,10.66895539,14.6,727,3360,46180,78.3,0,0,0,0,2015-01-02
+José,Miranda,M,1,debt_consolidation,0.1126,328.64,11.00209984,12.2,762,3690,5264,28.8,2,0,0,0,2015-01-02
+Francisco,Rojas,F,1,debt_consolidation,0.1505,138.77,10.94199592,12.7,682,3750,3864,99.1,0,0,1,0,2015-01-03
