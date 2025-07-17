@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETL_LendingClub_DW_After", "ETL_LendingClub_DW_After\ETL_LendingClub_DW_After.dtproj", "{E5E6DC88-EA74-C936-1B6A-7A5FE9CDDF86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5E6DC88-EA74-C936-1B6A-7A5FE9CDDF86}.Development|Default.ActiveCfg = Development
+		{E5E6DC88-EA74-C936-1B6A-7A5FE9CDDF86}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {839FCB89-3382-48E1-B865-96D4CE62B801}
+	EndGlobalSection
+EndGlobal

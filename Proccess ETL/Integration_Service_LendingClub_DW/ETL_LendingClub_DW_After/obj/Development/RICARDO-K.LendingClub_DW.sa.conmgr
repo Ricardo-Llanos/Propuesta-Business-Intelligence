@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="RICARDO-K.LendingClub_DW.sa"
+  DTS:DTSID="{378A437F-491C-48C0-89E2-F33BD385C2AF}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=RICARDO-K;User ID=sa;Initial Catalog=LendingClub_DW;Provider=SQLOLEDB.1;Application Name=SSIS-ETL_LendingClub_DW_After-{378A437F-491C-48C0-89E2-F33BD385C2AF}RICARDO-K.LendingClub_DW.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA51q8J/kX60uPUYn4k6eTigAAAAACAAAAAAAQZgAAAAEAACAAAAC42RH+KVa5E5Yj+y/AgtKoEa9R3fxuErABBH70i50nPQAAAAAOgAAAAAIAACAAAABAY3uLZDMn8a9eHrqdBnK/m/1nLmlMohbYJQ3GuBFCBYAAAADbQPLKs9pFZd9n/0vWVsAG4N2YqSaHzBM/9Us/iPpbDefyq6U9Yz6bfN1eUgUkYucgXeK1EqUxTlkLrHiKxYWOI4RiWxIE9VvzzoC3vU06IRnBJYZ/gjpWC+2Z131WwaP/iHKKOp3q9B5cS+lchV1BRkLz09lKNISh7HMooIcbokAAAAAdJz0ViUG14U7IO7MhcATvqU8NerblzljXUUTBOzfvVJI4d0lXBZBvvGyJ1K+sArXZTNGGhniXcGSsdIOHMd0D</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
