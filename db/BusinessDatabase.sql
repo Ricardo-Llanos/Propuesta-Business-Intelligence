@@ -47,7 +47,7 @@ CREATE TABLE Loan(
     Id_Client INT, --(FK)
     Id_Date INT, --(FK)
     Purpose VARCHAR(200),
-    Credyt_policy CHAR(1),
+    Credit_policy CHAR(1),
     Int_Rate FLOAT,
     Fee FLOAT,
 
@@ -109,6 +109,7 @@ ALTER TABLE Loan
 ADD CONSTRAINT FK_Loan_Id_Date
 FOREIGN KEY (Id_Date) REFERENCES DateLoan(Id_Date);
 GO
+
 
 ALTER TABLE Loan
 ADD CONSTRAINT FK_Loan_Id_Client
