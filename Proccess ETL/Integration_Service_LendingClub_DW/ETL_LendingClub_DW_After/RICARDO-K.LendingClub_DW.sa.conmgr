@@ -7,10 +7,10 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=RICARDO-K;User ID=sa;Initial Catalog=LendingClub_DW;Provider=SQLOLEDB.1;Application Name=SSIS-ETL_LendingClub_DW_After-{378A437F-491C-48C0-89E2-F33BD385C2AF}RICARDO-K.LendingClub_DW.sa;Auto Translate=False;">
+      DTS:ConnectionString="Data Source=RICARDO-K;User ID=sa;Initial Catalog=LendingClub_DW;Provider=SQLOLEDB.1;Auto Translate=False;Application Name=SSIS-ETL_LendingClub_DW_After-{378A437F-491C-48C0-89E2-F33BD385C2AF}RICARDO-K.LendingClub_DW.sa;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA51q8J/kX60uPUYn4k6eTigAAAAACAAAAAAAQZgAAAAEAACAAAABPkMsQ82vXrlJoThVub/LQmhfNrnwdDQ1NE39ESrR/zwAAAAAOgAAAAAIAACAAAADxlXMJRzWGeqG+GlpGrhE8jc7DGeLeViXTpze6tFxN3oAAAAAxBBVj3LtWbjzpYXNamt/6345A/K1oqp4Rk3qvIUV8KRLtg9s6pIjO1cwuReSg2BTXjuSxCsBcu7AOrzbBZ6fzH+/diBy6xBdw8H2FDGRhz+dH3KIaPgfeGxpBqzzUE6UE/WPr4j/V6FMmglPC5OhQokUQtdxQ3sAZWvCwENIhXEAAAADjXOZ696YATW+XdL0yqKPqt5BSYdtrKcwtoQXDF6hHRr/cqUxF/dEjcr7uqZDaRbDmrIB7rK4tODnqYgkI/tgg</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA51q8J/kX60uPUYn4k6eTigAAAAACAAAAAAAQZgAAAAEAACAAAAD3dVGhp2KnlEUYaw6F+OAWqRFBaW1XwF4HatA5tXMTIAAAAAAOgAAAAAIAACAAAACH23WZaFDziBXo62gmkhMn50DIfjGSvMKeD3ZA245zqoAAAADg8twzZipZqyx/HD0phKGkRjqXCmP1SRR5Dwyf1uJZO3TGmnOUpBhw0fLQqQmg15xzkA9JNxf3Yu/+F6HHtiy+OWU84tuq4aQO25jIIOV25W7whvlcJP8jI2n7q/OAXZ5434ZrvGP3ae7sV78IqgD0qWiG6c287jn46THLCluJakAAAACTLNbGuIo8rsDnVy/95p6Z4ZPFFtX5DWD9j5MPoc257QMof40ARthVtmLOIiIHeu8jfqXf4uyTv3J1K8Xy1G+f</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

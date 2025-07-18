@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="LendingClub-GestionDB"
   DTS:PackageType="5"
-  DTS:VersionBuild="73"
-  DTS:VersionGUID="{8C412A6F-BB69-477C-9939-D9BD0E23E02A}">
+  DTS:VersionBuild="74"
+  DTS:VersionGUID="{48E1E079-6017-4626-8FEB-06FC9CEB5FC8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -5994,6 +5994,39 @@ where [refTable].[Id_Loan] = ?</property>
           Size="322,188"
           Id="Package\Insert In DateLoan"
           TopLeft="18.3333333333333,295.333333333333" />
+        <NodeLayout
+          Size="231,42"
+          Id="Package\Insert In Loan\Solución Incremental - Loan DW"
+          TopLeft="40.75,52.5" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="311,160"
+          Size="311,203"
+          Id="Package\Insert In Loan"
+          TopLeft="409.380952380952,285" />
+        <NodeLayout
+          Size="279,42"
+          Id="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW"
+          TopLeft="35.1428571428571,46.2857142857142" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="335,149"
+          Size="335,192"
+          Id="Package\Insert In TimeCreditLine"
+          TopLeft="398.809523809524,512" />
+        <NodeLayout
+          Size="269,42"
+          Id="Package\Sequence Container\Solución Incremental - CreditHistory DW"
+          TopLeft="25,52" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="338,155"
+          Size="338,198"
+          Id="Package\Sequence Container"
+          TopLeft="782,514" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="180.916666666667,252">
@@ -6016,17 +6049,6 @@ where [refTable].[Id_Loan] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="231,42"
-          Id="Package\Insert In Loan\Solución Incremental - Loan DW"
-          TopLeft="40.75,52.5" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="311,160"
-          Size="311,203"
-          Id="Package\Insert In Loan"
-          TopLeft="409.380952380952,285" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="340.333333333333,387.916666666667">
@@ -6049,17 +6071,6 @@ where [refTable].[Id_Loan] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="279,42"
-          Id="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW"
-          TopLeft="35.1428571428571,46.2857142857142" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="335,149"
-          Size="335,192"
-          Id="Package\Insert In TimeCreditLine"
-          TopLeft="398.809523809524,512" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
           TopLeft="565.595238095238,488">
@@ -6082,17 +6093,6 @@ where [refTable].[Id_Loan] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="269,42"
-          Id="Package\Sequence Container\Solución Incremental - CreditHistory DW"
-          TopLeft="25,52" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="338,155"
-          Size="338,198"
-          Id="Package\Sequence Container"
-          TopLeft="782,514" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="733.809523809524,610.5">
@@ -6124,14 +6124,6 @@ where [refTable].[Id_Loan] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="207,42"
-          Id="Package\Insert In Client\Solución Incremental - Client DW\Ordenar EconomicSituation"
-          TopLeft="440,159" />
-        <NodeLayout
-          Size="207,42"
-          Id="Package\Insert In Client\Solución Incremental - Client DW\Origen de Client - DB OLTP"
-          TopLeft="87,83" />
-        <NodeLayout
           Size="280,42"
           Id="Package\Insert In Client\Solución Incremental - Client DW\Inner Join hacia Client - EconomicSituation"
           TopLeft="234,255" />
@@ -6139,6 +6131,56 @@ where [refTable].[Id_Loan] = ?</property>
           Size="267,42"
           Id="Package\Insert In Client\Solución Incremental - Client DW\Origen de EconomicSituation - DB OLTP"
           TopLeft="407,85" />
+        <NodeLayout
+          Size="323,42"
+          Id="Package\Insert In Client\Solución Incremental - Client DW\Comparar y Actualizar registros en Client - DB OLAP"
+          TopLeft="444,416" />
+        <NodeLayout
+          Size="227,42"
+          Id="Package\Insert In Client\Solución Incremental - Client DW\Comparar con Client - DB OLAP"
+          TopLeft="266,328" />
+        <NodeLayout
+          Size="147,42"
+          Id="Package\Insert In Client\Solución Incremental - Client DW\Ordenar Client"
+          TopLeft="122,161" />
+        <NodeLayout
+          Size="207,42"
+          Id="Package\Insert In Client\Solución Incremental - Client DW\Ordenar EconomicSituation"
+          TopLeft="440,159" />
+        <NodeLayout
+          Size="236,42"
+          Id="Package\Insert In Client\Solución Incremental - Client DW\Cargar datos en Client - DB OLAP"
+          TopLeft="76,413" />
+        <NodeLayout
+          Size="265,42"
+          Id="Package\Insert In Client\Solución Incremental - Client DW\Actualizar registros en Client - DB OLAP"
+          TopLeft="473,494" />
+        <NodeLayout
+          Size="207,42"
+          Id="Package\Insert In Client\Solución Incremental - Client DW\Origen de Client - DB OLTP"
+          TopLeft="87,83" />
+        <EdgeLayout
+          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de origen de OLE DB1]"
+          TopLeft="193,125">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36"
+              Start="0,0"
+              End="0,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de origen de OLE DB]"
           TopLeft="542,127">
@@ -6161,132 +6203,32 @@ where [refTable].[Id_Loan] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="227,42"
-          Id="Package\Insert In Client\Solución Incremental - Client DW\Comparar con Client - DB OLAP"
-          TopLeft="266,328" />
-        <NodeLayout
-          Size="236,42"
-          Id="Package\Insert In Client\Solución Incremental - Client DW\Cargar datos en Client - DB OLAP"
-          TopLeft="76,413" />
         <EdgeLayout
-          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="343,370">
+          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de ordenación1]"
+          TopLeft="195.5,203">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-149,43"
+              EndConnector="178.5,52"
               Start="0,0"
-              End="-149,35.5">
+              End="178.5,44.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.3805774278215" />
+                    End="0,22" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.3805774278215"
-                    Point2="0,17.3805774278215"
-                    Point3="-4,17.3805774278215" />
+                    Point1="0,22"
+                    Point2="0,26"
+                    Point3="4,26" />
                   <mssgle:LineSegment
-                    End="-145,17.3805774278215" />
+                    End="174.5,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="-145,17.3805774278215"
-                    Point2="-149,17.3805774278215"
-                    Point3="-149,21.3805774278215" />
+                    Point1="174.5,26"
+                    Point2="178.5,26"
+                    Point3="178.5,30" />
                   <mssgle:LineSegment
-                    End="-149,35.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-181.3890234375,22.3805774278215,213.778046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="323,42"
-          Id="Package\Insert In Client\Solución Incremental - Client DW\Comparar y Actualizar registros en Client - DB OLAP"
-          TopLeft="444,416" />
-        <EdgeLayout
-          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="416,370">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="189.5,46"
-              Start="0,0"
-              End="189.5,38.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.5931758530184" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.5931758530184"
-                    Point2="0,18.5931758530184"
-                    Point3="4,18.5931758530184" />
-                  <mssgle:LineSegment
-                    End="185.5,18.5931758530184" />
-                  <mssgle:CubicBezierSegment
-                    Point1="185.5,18.5931758530184"
-                    Point2="189.5,18.5931758530184"
-                    Point3="189.5,22.5931758530184" />
-                  <mssgle:LineSegment
-                    End="189.5,38.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-5.06902343750001,23.5931758530184,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="265,42"
-          Id="Package\Insert In Client\Solución Incremental - Client DW\Actualizar registros en Client - DB OLAP"
-          TopLeft="473,494" />
-        <EdgeLayout
-          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Datos Diferentes]"
-          TopLeft="605.5,458">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36"
-              Start="0,0"
-              End="0,28.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-37.237578125,9.35107421875,74.47515625,9.7978515625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de combinación de mezcla]"
-          TopLeft="376.75,297">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31"
-              Start="0,0"
-              End="0,23.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.5" />
+                    End="178.5,44.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6329,36 +6271,92 @@ where [refTable].[Id_Loan] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="147,42"
-          Id="Package\Insert In Client\Solución Incremental - Client DW\Ordenar Client"
-          TopLeft="122,161" />
         <EdgeLayout
-          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de ordenación1]"
-          TopLeft="195.5,203">
+          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="343,370">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="178.5,52"
+              EndConnector="-149,43"
               Start="0,0"
-              End="178.5,44.5">
+              End="-149,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22" />
+                    End="0,13.3805774278215" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22"
-                    Point2="0,26"
-                    Point3="4,26" />
+                    Point1="0,13.3805774278215"
+                    Point2="0,17.3805774278215"
+                    Point3="-4,17.3805774278215" />
                   <mssgle:LineSegment
-                    End="174.5,26" />
+                    End="-145,17.3805774278215" />
                   <mssgle:CubicBezierSegment
-                    Point1="174.5,26"
-                    Point2="178.5,26"
-                    Point3="178.5,30" />
+                    Point1="-145,17.3805774278215"
+                    Point2="-149,17.3805774278215"
+                    Point3="-149,21.3805774278215" />
                   <mssgle:LineSegment
-                    End="178.5,44.5" />
+                    End="-149,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-181.3890234375,22.3805774278215,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="416,370">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="189.5,46"
+              Start="0,0"
+              End="189.5,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.5931758530184" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5931758530184"
+                    Point2="0,18.5931758530184"
+                    Point3="4,18.5931758530184" />
+                  <mssgle:LineSegment
+                    End="185.5,18.5931758530184" />
+                  <mssgle:CubicBezierSegment
+                    Point1="185.5,18.5931758530184"
+                    Point2="189.5,18.5931758530184"
+                    Point3="189.5,22.5931758530184" />
+                  <mssgle:LineSegment
+                    End="189.5,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-5.06902343750001,23.5931758530184,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de combinación de mezcla]"
+          TopLeft="376.75,297">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6368,8 +6366,8 @@ where [refTable].[Id_Loan] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Salida de origen de OLE DB1]"
-          TopLeft="193,125">
+          Id="Package\Insert In Client\Solución Incremental - Client DW.Paths[Datos Diferentes]"
+          TopLeft="605.5,458">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6386,25 +6384,14 @@ where [refTable].[Id_Loan] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-37.237578125,9.35107421875,74.47515625,9.7978515625"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Insert In Client\Solución Incremental - Client DW\Origen de Client - DB OLTP">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Insert In Client\Solución Incremental - Client DW\Origen de EconomicSituation - DB OLTP">
     <Properties>
@@ -6424,7 +6411,7 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -6434,7 +6421,7 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6454,15 +6441,36 @@ where [refTable].[Id_Loan] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Insert In Client\Solución Incremental - Client DW\Origen de Client - DB OLTP">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Insert In DateLoan\Solución Incremental - DateLoan DW">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="344,42"
+          Id="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Columna para extraer características de Loan - DB OLTP"
+          TopLeft="101,287" />
+        <NodeLayout
           Size="203,42"
           Id="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Origen de Loan - DB OLTP"
           TopLeft="173,112" />
+        <NodeLayout
+          Size="226,42"
+          Id="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Cargar en DateLoan - DB OLAP"
+          TopLeft="156.181818181818,359.363636363636" />
         <NodeLayout
           Size="245,42"
           Id="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Comparar con DateLoan - DB OLAP"
@@ -6489,14 +6497,6 @@ where [refTable].[Id_Loan] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="226,42"
-          Id="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Cargar en DateLoan - DB OLAP"
-          TopLeft="156.181818181818,359.363636363636" />
-        <NodeLayout
-          Size="344,42"
-          Id="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Columna para extraer características de Loan - DB OLTP"
-          TopLeft="101,287" />
         <EdgeLayout
           Id="Package\Insert In DateLoan\Solución Incremental - DateLoan DW.Paths[Salida de entradas no coincidentes de búsqueda]"
           TopLeft="273.75,233">
@@ -6560,29 +6560,6 @@ where [refTable].[Id_Loan] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Comparar con DateLoan - DB OLAP">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DateLoan]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Cargar en DateLoan - DB OLAP">
     <Properties>
       <Property>
@@ -6592,6 +6569,29 @@ where [refTable].[Id_Loan] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Insert In DateLoan\Solución Incremental - DateLoan DW\Comparar con DateLoan - DB OLAP">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DateLoan]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -6898,7 +6898,30 @@ where [refTable].[Id_Loan] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Insert In Loan\Solución Incremental - Loan DW\Origen de Loan - DB OLTP">
+    design-time-name="Package\Insert In Loan\Solución Incremental - Loan DW\Comparar con Loan - OLAP">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Loan]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Insert In Loan\Solución Incremental - Loan DW\Cargar datos en Loan - OLAP">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6929,7 +6952,7 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -6939,7 +6962,7 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6947,30 +6970,7 @@ where [refTable].[Id_Loan] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Insert In Loan\Solución Incremental - Loan DW\Comparar con Loan - OLAP">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Loan]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Insert In Loan\Solución Incremental - Loan DW\Cargar datos en Loan - OLAP">
+    design-time-name="Package\Insert In Loan\Solución Incremental - Loan DW\Origen de Loan - DB OLTP">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7075,7 +7075,30 @@ where [refTable].[Id_Loan] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW\Origen de CreditHistory - DB OLTP">
+    design-time-name="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW\Comparar con TimeCreditLine - DB OLAP">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[TimeCreditLine]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW\Cargar datos en TimeCreditLine - DB OLAP">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7088,30 +7111,7 @@ where [refTable].[Id_Loan] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW\Comparar con TimeCreditLine - DB OLAP">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[TimeCreditLine]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW\Cargar datos en TimeCreditLine - DB OLAP">
+    design-time-name="Package\Insert In TimeCreditLine\Solución Incremental - TimeCreditLine DW\Origen de CreditHistory - DB OLTP">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7298,7 +7298,7 @@ where [refTable].[Id_Loan] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Sequence Container\Solución Incremental - CreditHistory DW\Origen de CreditHistory - DB OLTP">
+    design-time-name="Package\Sequence Container\Solución Incremental - CreditHistory DW\Cargar en CreditHistory - DB OLAP">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7316,7 +7316,7 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -7326,10 +7326,23 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sequence Container\Solución Incremental - CreditHistory DW\Origen de CreditHistory - DB OLTP">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -7339,7 +7352,7 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -7349,23 +7362,10 @@ where [refTable].[Id_Loan] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sequence Container\Solución Incremental - CreditHistory DW\Cargar en CreditHistory - DB OLAP">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

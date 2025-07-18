@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">RICARDO-K</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADC8UTmdbDEGAsF1r9KQ4bAAAAAACAAAAAAAQZgAAAAEAACAAAADU7v7+t5GytqJiekZOxHvhXrA1LfwY/wGCQXRcj7yaFgAAAAAOgAAAAAIAACAAAAC1epOpOeqwqIU9Yyjop4ud5RsGMWeea8IJ70CKHSOaRpAAAAAmpzvJewd+wiH/RLPl+/qLQAhrzCecCzIc7azl4vnaRJ2B4yF9SAFnVW/PtwbjQU0zpwtldp3stSqcnDlZ5vwiVxU4ss1gx/rxRq54c15coerlv7oEJI3sVSNqf/4/ScxwtJDhg0bLYy/TFHkOCEFEg9ASO7rxsJE+b6HzMq7zdd6a3L1kFKdySzHBNaRhssNAAAAAj0Vqd0LHpXw8/vZXZuRNqk9NGuuxyJ4mR06I0HYbO4YWTBqNCkqmKyqmAOrx60mzc41RuJNKd/a4O89qe64Kxg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA51q8J/kX60uPUYn4k6eTigAAAAACAAAAAAAQZgAAAAEAACAAAABy0oCtf6KXW8yrlXeezY3tVBuUid4mJCE3e96PkMLPcwAAAAAOgAAAAAIAACAAAAAWGFOzhsuVf3yX9bAtlO++I+NXNMOPGwm3E5e/WcksRpAAAAAqzeB/0MW+El4yE74i+yYgvl5qeAxYnJJOhgSJYJBEXa0U2jXgOoavewiV0A4R4RryOZQkc2QoIRwqgGtv6hSGbHil0IJPK24gSNLuzdTXXn7Jr2HelsmCdXcHsKKKy/W8Rxt8hzm6DyJu6NcYlRgSZnaPbXHqot+SGIKe8CGBeT2ywtxXqdeD0GXNHHrpZvtAAAAAeiXtKYy9dRxTXcBbPU4ccmgXlcRuaGrYwPQdetc25UakBHm3hfdc216dkm73Htnx6aZ1DzUTvguwf/tC6cQrDw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -215,7 +215,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=RICARDO-K;User ID=sa;Initial Catalog=LendingClub_DW;Provider=SQLOLEDB.1;Application Name=SSIS-ETL_LendingClub_DW_After-{378A437F-491C-48C0-89E2-F33BD385C2AF}RICARDO-K.LendingClub_DW.sa;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=RICARDO-K;User ID=sa;Initial Catalog=LendingClub_DW;Provider=SQLOLEDB.1;Auto Translate=False;Application Name=SSIS-ETL_LendingClub_DW_After-{378A437F-491C-48C0-89E2-F33BD385C2AF}RICARDO-K.LendingClub_DW.sa;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -642,10 +642,10 @@
                 <SSIS:Property SSIS:Name="Name">LendingClub-GestionDB</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">73</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">74</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8C412A6F-BB69-477C-9939-D9BD0E23E02A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{48E1E079-6017-4626-8FEB-06FC9CEB5FC8}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

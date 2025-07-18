@@ -1,7 +1,11 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\BusinessIntelligence\\Proccess ETL\\Solution_LendingClub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D08CE93-96A8-698B-7683-2EB97DB7F724}|..\\Integration_Service_LendingClub_DW\\ETL_LendingClub_DW_After\\SSIS_LendingClub_DW.dtproj|C:\\xampp\\htdocs\\BusinessIntelligence\\Proccess ETL\\Integration_Service_LendingClub_DW\\ETL_LendingClub_DW_After\\LendingClub-GestionDB.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +13,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LendingClub-GestionDB.dtsx [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BusinessIntelligence\\Proccess ETL\\Integration_Service_LendingClub_DW\\ETL_LendingClub_DW_After\\LendingClub-GestionDB.dtsx",
+              "RelativeDocumentMoniker": "..\\Integration_Service_LendingClub_DW\\ETL_LendingClub_DW_After\\LendingClub-GestionDB.dtsx",
+              "ToolTip": "C:\\xampp\\htdocs\\BusinessIntelligence\\Proccess ETL\\Integration_Service_LendingClub_DW\\ETL_LendingClub_DW_After\\LendingClub-GestionDB.dtsx [Design]",
+              "RelativeToolTip": "..\\Integration_Service_LendingClub_DW\\ETL_LendingClub_DW_After\\LendingClub-GestionDB.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-07-18T03:00:27.835Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
