@@ -1,12 +1,72 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\xampp\\htdocs\\BusinessIntelligence\\Proccess ETL\\Solution_LendingClub\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{100D421C-37FB-1D02-3E56-D8134379891A}|AnalysisLeandingClubDW\\AnalysisLeandingClubDW.dwproj|E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Lending Club DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{100D421C-37FB-1D02-3E56-D8134379891A}|AnalysisLeandingClubDW\\AnalysisLeandingClubDW.dwproj|solutionrelative:AnalysisLeandingClubDW\\Lending Club DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100D421C-37FB-1D02-3E56-D8134379891A}|AnalysisLeandingClubDW\\AnalysisLeandingClubDW.dwproj|E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Credit History.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{100D421C-37FB-1D02-3E56-D8134379891A}|AnalysisLeandingClubDW\\AnalysisLeandingClubDW.dwproj|solutionrelative:AnalysisLeandingClubDW\\Credit History.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100D421C-37FB-1D02-3E56-D8134379891A}|AnalysisLeandingClubDW\\AnalysisLeandingClubDW.dwproj|E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Lending Club DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{100D421C-37FB-1D02-3E56-D8134379891A}|AnalysisLeandingClubDW\\AnalysisLeandingClubDW.dwproj|solutionrelative:AnalysisLeandingClubDW\\Lending Club DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Credit History.dim [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Credit History.dim",
+              "RelativeDocumentMoniker": "AnalysisLeandingClubDW\\Credit History.dim",
+              "ToolTip": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Credit History.dim [Dise\u00F1o]",
+              "RelativeToolTip": "AnalysisLeandingClubDW\\Credit History.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-17T23:04:14.822Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lending Club DW.cube [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Lending Club DW.cube",
+              "RelativeDocumentMoniker": "AnalysisLeandingClubDW\\Lending Club DW.cube",
+              "ToolTip": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Lending Club DW.cube [Dise\u00F1o]",
+              "RelativeToolTip": "AnalysisLeandingClubDW\\Lending Club DW.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-17T22:52:55.667Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lending Club DW.dsv [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Lending Club DW.dsv",
+              "RelativeDocumentMoniker": "AnalysisLeandingClubDW\\Lending Club DW.dsv",
+              "ToolTip": "E:\\7timo FIS\\GESTION DE BASE DE DATOS\\TrabajoFinal\\Propuesta-Business-Intelligence\\Proccess ETL\\Solution_LendingClub\\AnalysisLeandingClubDW\\Lending Club DW.dsv [Dise\u00F1o]",
+              "RelativeToolTip": "AnalysisLeandingClubDW\\Lending Club DW.dsv [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-17T21:46:13.919Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

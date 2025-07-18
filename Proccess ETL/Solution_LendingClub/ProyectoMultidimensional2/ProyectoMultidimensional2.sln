@@ -1,22 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1
+VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_LendingClub_DW", "..\Integration_Service_LendingClub_DW\ETL_LendingClub_DW_After\SSIS_LendingClub_DW.dtproj", "{5D08CE93-96A8-698B-7683-2EB97DB7F724}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AnalisisServiceLCSW", "ProyectoMultidimensional2\AnalisisServiceLCSW.dwproj", "{26695074-7EA9-9417-C43F-C4429D25E9AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5D08CE93-96A8-698B-7683-2EB97DB7F724}.Development|Default.ActiveCfg = Development
-		{5D08CE93-96A8-698B-7683-2EB97DB7F724}.Development|Default.Build.0 = Development
+		{26695074-7EA9-9417-C43F-C4429D25E9AD}.Development|Default.ActiveCfg = Development
+		{26695074-7EA9-9417-C43F-C4429D25E9AD}.Development|Default.Build.0 = Development
+		{26695074-7EA9-9417-C43F-C4429D25E9AD}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6C789E05-9BC3-45B4-87BC-6A738A79EBF1}
+		SolutionGuid = {3AF923DE-B87C-4202-94E1-A70D8EA6E3BA}
 	EndGlobalSection
 EndGlobal

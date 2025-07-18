@@ -4,7 +4,7 @@
       <Name>Development</Name>
       <Options>
         <TargetServer>DESKTOP-B5B1VLD\MSSQLSERVER2022</TargetServer>
-        <TargetDatabase>AnalysisLeandingClubDW</TargetDatabase>
+        <TargetDatabase>ProyectoMultidimensional2</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>

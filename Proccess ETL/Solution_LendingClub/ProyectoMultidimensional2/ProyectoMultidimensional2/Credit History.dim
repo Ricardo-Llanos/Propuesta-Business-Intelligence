@@ -1,0 +1,200 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f477e53e-6f1f-4fd7-98bc-641375d06c70" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Credit History</ID>
+  <Name>Credit History</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6616" scrolltop="-6223" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="16362" y="15833" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CreditHistory" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3090" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000120c00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_CreditHistory" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6616</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6223</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ce774935-593e-4c73-9d1d-2f7aab1ade4f">
+    <DataSourceViewID>Lending Club DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="1d0a4bb8-ba5d-4e48-a01a-8ea104f7217d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a7679af4-d67e-44aa-a6df-282b332a6164">
+      <ID>Id Loan</ID>
+      <Name>Id Loan</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e14990d1-ca9b-4df1-9937-f41d2280483e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd99d04d-a66d-44c5-ae03-0fe690545549">
+            <TableID>dbo_CreditHistory</TableID>
+            <ColumnID>Id_Loan</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="59305afb-e15e-455a-92fa-aa6683ab443a">
+          <AttributeID>Id Time Credit</AttributeID>
+          <Name>Id Time Credit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a60af77f-cd02-4a3e-a1e6-c4a4aa867000">
+          <AttributeID>Fully Paid</AttributeID>
+          <Name>Fully Paid</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4193ec9b-5c4d-47f5-9e99-4cff7cc56d14">
+          <AttributeID>Inq Last 6mths</AttributeID>
+          <Name>Inq Last 6mths</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="84b0d609-6a9a-42cb-8211-767de2629c16">
+          <AttributeID>Revol Bal</AttributeID>
+          <Name>Revol Bal</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="859ab75e-7aba-4a77-bb06-bc7462c0a428">
+          <AttributeID>Revol Util</AttributeID>
+          <Name>Revol Util</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8be4613a-ab82-45b9-ba24-94132487052a">
+      <ID>Id Time Credit</ID>
+      <Name>Id Time Credit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="28b1f482-cea2-49c5-9792-7eb209b08db1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4305879-ccae-469e-ac5c-927744da2801">
+            <TableID>dbo_CreditHistory</TableID>
+            <ColumnID>Id_Time_Credit</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8d530fec-0c74-4f4f-a26d-7195097953df">
+      <ID>Fully Paid</ID>
+      <Name>Fully Paid</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="39093ed8-4e5d-4232-90c8-92a245412d9a">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f31a70ed-ddf1-4e4a-a82e-9b38748a8f11">
+            <TableID>dbo_CreditHistory</TableID>
+            <ColumnID>Fully_paid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e799f6e3-0cac-41d6-a931-a376b09cafcb">
+      <ID>Inq Last 6mths</ID>
+      <Name>Inq Last 6mths</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aa17dd8b-955c-4468-9c33-7843ece12742">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a97443c8-6514-48db-a181-8dadc2233289">
+            <TableID>dbo_CreditHistory</TableID>
+            <ColumnID>Inq_last_6mths</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a68a1c86-528c-452d-bb23-30ad0e8a1265">
+      <ID>Revol Bal</ID>
+      <Name>Revol Bal</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="466b6073-51d6-4d49-b683-553c1da13cc9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ece57e9-8ced-4e40-a0f9-7f87dd3ffca3">
+            <TableID>dbo_CreditHistory</TableID>
+            <ColumnID>Revol_bal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9664fca8-e03e-4838-90b8-d5e8d4b9a0ad">
+      <ID>Revol Util</ID>
+      <Name>Revol Util</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bacc4f33-78e1-4a69-8999-5e8b964430c5">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e9058458-e143-467e-8f70-a1891ec3db0f">
+            <TableID>dbo_CreditHistory</TableID>
+            <ColumnID>Revol_util</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
