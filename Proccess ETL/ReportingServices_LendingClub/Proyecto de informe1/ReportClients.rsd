@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description />
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>LendingClub_DW</DataSourceReference>
+      <CommandText>SELECT Client.Id_Client, Client.Sex, Client.FICO, Client.Dti, Loan.Purpose, Loan.Credit_policy, Client.Log_annual_inc, DateLoan.[Year], DateLoan.Quarter, DateLoan.[Month], DateLoan.Month_description, Loan.Fee, Loan.Int_Rate
+FROM     Client INNER JOIN
+                  Loan ON Client.Id_Client = Loan.Id_Client INNER JOIN
+                  CreditHistory ON Loan.Id_Loan = CreditHistory.Id_Loan INNER JOIN
+                  DateLoan ON Loan.Id_Date = DateLoan.Id_Date INNER JOIN
+                  TimeCreditLine ON CreditHistory.Id_Time_Credit = TimeCreditLine.Id_Time_Credit</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Id_Client">
+        <DataField>Id_Client</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Sex">
+        <DataField>Sex</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FICO">
+        <DataField>FICO</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="Dti">
+        <DataField>Dti</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Purpose">
+        <DataField>Purpose</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Credit_policy">
+        <DataField>Credit_policy</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Log_annual_inc">
+        <DataField>Log_annual_inc</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Year">
+        <DataField>Year</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="Quarter">
+        <DataField>Quarter</DataField>
+        <rd:TypeName>System.Byte</rd:TypeName>
+      </Field>
+      <Field Name="Month">
+        <DataField>Month</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="Month_description">
+        <DataField>Month_description</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Fee">
+        <DataField>Fee</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Int_Rate">
+        <DataField>Int_Rate</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
