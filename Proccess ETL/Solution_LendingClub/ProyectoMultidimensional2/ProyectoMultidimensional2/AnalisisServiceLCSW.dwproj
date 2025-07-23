@@ -17,16 +17,6 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Lending Club DW 1 1.cube</Name>
-      <FullPath>Lending Club DW 1 1.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Lending Club DW 1 1.partitions</Name>
-          <FullPath>Lending Club DW 1 1.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -46,24 +36,8 @@
       <FullPath>Credit History.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Client 1.dim</Name>
-      <FullPath>Client 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Date Loan 1.dim</Name>
-      <FullPath>Date Loan 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Loan.dim</Name>
       <FullPath>Loan.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Time Credit Line 1.dim</Name>
-      <FullPath>Time Credit Line 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Credit History 1.dim</Name>
-      <FullPath>Credit History 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -76,10 +50,6 @@
     <ProjectItem>
       <Name>Lending Club DW.dsv</Name>
       <FullPath>Lending Club DW.dsv</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Lending Club DW 1.dsv</Name>
-      <FullPath>Lending Club DW 1.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

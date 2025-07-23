@@ -5,9 +5,9 @@ VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AnalisisServiceLCSW", "ProyectoMultidimensional2\AnalisisServiceLCSW.dwproj", "{26695074-7EA9-9417-C43F-C4429D25E9AD}"
 EndProject
-Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_LendingClub_DW", "..\..\Integration_Service_LendingClub_DW\ETL_LendingClub_DW_After\SSIS_LendingClub_DW.dtproj", "{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}"
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_LendingClub_DW", "..\Integration_Service_LendingClub_DW\ETL_LendingClub_DW_After\SSIS_LendingClub_DW.dtproj", "{2429ABCA-4B0D-04AC-3271-59D972FAA79A}"
 EndProject
-Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportingServices_DW", "..\..\ReportingServices_LendingClub\Proyecto de informe1\ReportingServices_DW.rptproj", "{5A04A3C0-1C0B-9402-B070-7FCD738A365D}"
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportingServices_DW", "..\ReportingServices_LendingClub\Proyecto de informe1\ReportingServices_DW.rptproj", "{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,26 +29,26 @@ Global
 		{26695074-7EA9-9417-C43F-C4429D25E9AD}.Release|Default.ActiveCfg = Development
 		{26695074-7EA9-9417-C43F-C4429D25E9AD}.Release|Default.Build.0 = Development
 		{26695074-7EA9-9417-C43F-C4429D25E9AD}.Release|Default.Deploy.0 = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.Debug|Default.ActiveCfg = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.Debug|Default.Build.0 = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.DebugLocal|Default.ActiveCfg = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.DebugLocal|Default.Build.0 = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.Development|Default.ActiveCfg = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.Development|Default.Build.0 = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.Release|Default.ActiveCfg = Development
-		{D4E9C3D5-2EB4-D92F-183D-C7BA44880AFD}.Release|Default.Build.0 = Development
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Debug|Default.ActiveCfg = Debug
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Debug|Default.Build.0 = Debug
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Debug|Default.Deploy.0 = Debug
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.DebugLocal|Default.ActiveCfg = DebugLocal
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.DebugLocal|Default.Build.0 = DebugLocal
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.DebugLocal|Default.Deploy.0 = DebugLocal
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Development|Default.ActiveCfg = Release
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Development|Default.Build.0 = Release
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Development|Default.Deploy.0 = Release
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Release|Default.ActiveCfg = Release
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Release|Default.Build.0 = Release
-		{5A04A3C0-1C0B-9402-B070-7FCD738A365D}.Release|Default.Deploy.0 = Release
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.Debug|Default.ActiveCfg = Development
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.Debug|Default.Build.0 = Development
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.DebugLocal|Default.ActiveCfg = Development
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.DebugLocal|Default.Build.0 = Development
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.Development|Default.ActiveCfg = Development
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.Development|Default.Build.0 = Development
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.Release|Default.ActiveCfg = Development
+		{2429ABCA-4B0D-04AC-3271-59D972FAA79A}.Release|Default.Build.0 = Development
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Debug|Default.ActiveCfg = Debug
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Debug|Default.Build.0 = Debug
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Debug|Default.Deploy.0 = Debug
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.DebugLocal|Default.Build.0 = DebugLocal
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.DebugLocal|Default.Deploy.0 = DebugLocal
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Development|Default.ActiveCfg = Release
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Development|Default.Build.0 = Release
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Development|Default.Deploy.0 = Release
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Release|Default.ActiveCfg = Release
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Release|Default.Build.0 = Release
+		{E514BFAF-4EC0-C5AD-4C1E-1DEAF7E3AB41}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
