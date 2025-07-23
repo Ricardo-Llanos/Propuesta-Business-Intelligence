@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">RICARDO-K</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADC8UTmdbDEGAsF1r9KQ4bAAAAAACAAAAAAAQZgAAAAEAACAAAACdI7OHXCoMGinUzQLEhAHZPlMzDeWg9gSB3itnhdPaxgAAAAAOgAAAAAIAACAAAACPnyM6zsd3GEY06DGQiyuv8SItPGf8VIhh8PiM/rL2i5AAAAAjYdTIteZakLAXtPP2jinCHdWtOId7TKDl+Vh15TfVcL7A5w4JUjJrXgNzvUEA/iSsV2mS/Rsk9GKuA36fyg80lulaqVqLlb+Ww1I/nIVo6ym2FPwlYyhQh9rqqZ7TVVtXJxW5Br2npUZgi8s8dQRTl3f9RY1Y9ZtBpZZPOZjUrvPR14KhT0+V2nlQidekc3JAAAAAlpt5Wu3GjmjgMMXuunswE90sv3HwJLetDSa8jnyQxzWGzTpmanhpUAwVQZaKkDZlFYYVMWF2sHudhYdeAbqlwQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA51q8J/kX60uPUYn4k6eTigAAAAACAAAAAAAQZgAAAAEAACAAAADzVXSlVm14aOE3k8PDvCB/WFeO9wfq4Qh0Qskqa/HtUQAAAAAOgAAAAAIAACAAAAAZ1XWKAd9YumP+uw0pq01F/CI+lLEY4UErMSYp62hbPJAAAACSWm4wIUu1uYr/Jso5tXT1R4R4KCAMQhCMbpvv4x41DP1otBT7/nn9Fvzk2OdwVCP/d3WTp4Mv43DqxF3zpfOxvg6+yi7XJjt21s3/cbHJ/aTyvyI+xJA5qt4jrkxSaXz66sYBmlozGU5/mqOjVjnEgEBKk86Bpw2qAvw8+Ssb8265y7SwgGJKoF6aig9TaNBAAAAAN5A5REYvm9A7xAbtPpkqYQTl4kT2H3a6NjBXH6KbhLcWt2t+SCP/9603VFdx/jq6kmWEg0/L/iCfdlMAcd+FKg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -36,7 +36,7 @@
           <SSIS:ConnectionManager SSIS:Name="RICARDO-K.LendingClub.sa.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="RICARDO-K.LendingClub_DW.sa.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="Anna.LendingClub.conmgr" />
-          <SSIS:ConnectionManager SSIS:Name="Anna.LendingClub_DW.conmgr" />
+          <SSIS:ConnectionManager SSIS:Name="AnnaOlenka.LendingClub_DW.conmgr" />
         </SSIS:ConnectionManagers>
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters>
@@ -215,7 +215,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=RICARDO-K;User ID=sa;Initial Catalog=LendingClub_DW;Provider=SQLOLEDB.1;Application Name=SSIS-ETL_LendingClub_DW_After-{378A437F-491C-48C0-89E2-F33BD385C2AF}RICARDO-K.LendingClub_DW.sa;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=RICARDO-K;User ID=sa;Initial Catalog=LendingClub_DW;Provider=SQLOLEDB.1;Auto Translate=False;Application Name=SSIS-ETL_LendingClub_DW_After-{378A437F-491C-48C0-89E2-F33BD385C2AF}RICARDO-K.LendingClub_DW.sa;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -486,7 +486,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.ConnectByProxy">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.ConnectByProxy">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -501,7 +501,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.ConnectionString">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.ConnectionString">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -512,11 +512,11 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-B5B1VLD\MSSQLSERVER01;Initial Catalog=LendingClub_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-SSIS_LendingClub_DW-{34BE5E05-2F3E-4FAF-A2BC-0F6711049D0D}DESKTOP-B5B1VLD\MSSQLSERVER01.LendingClub_DW;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-B5B1VLD\MSSQLSERVER2022;Initial Catalog=LendingClub_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-SSIS_LendingClub_DW-{8FD57A42-3021-4B65-824D-D28E9660EE49}DESKTOP-B5B1VLD\MSSQLSERVER2022.LendingClub_DW;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.ConnectRetryCount">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.ConnectRetryCount">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -531,7 +531,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.ConnectRetryInterval">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.ConnectRetryInterval">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -546,7 +546,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.ConnectUsingManagedIdentity">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.ConnectUsingManagedIdentity">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -561,7 +561,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.InitialCatalog">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.InitialCatalog">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -576,7 +576,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.Password">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.Password">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -590,7 +590,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.RetainSameConnection">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.RetainSameConnection">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -605,7 +605,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.ServerName">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.ServerName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -616,11 +616,11 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">DESKTOP-B5B1VLD\MSSQLSERVER01</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">DESKTOP-B5B1VLD\MSSQLSERVER2022</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER01.LendingClub_DW.UserName">
+            <SSIS:Parameter SSIS:Name="CM.DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW.UserName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -642,10 +642,10 @@
                 <SSIS:Property SSIS:Name="Name">LendingClub-GestionDB</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">73</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">77</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8C412A6F-BB69-477C-9939-D9BD0E23E02A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{57C6AEBF-6633-430D-AD2C-CB0E34905E3C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

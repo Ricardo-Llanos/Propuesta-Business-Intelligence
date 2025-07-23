@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_LendingClub_DW</Name>
-    <LastWriteTime>2025-07-17T20:38:26.8456551Z</LastWriteTime>
+    <LastWriteTime>2025-07-18T03:05:15.7420756Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>LendingClub-GestionDB.dtsx</Name>
-      <LastWriteTime>2025-07-17T17:22:43.6394216Z</LastWriteTime>
+      <LastWriteTime>2025-07-18T15:26:53.4198708Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

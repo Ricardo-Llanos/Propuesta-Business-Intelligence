@@ -11,11 +11,12 @@ try {
 
     $con = new PDO("sqlsrv:Server=$server,$port;Database=$dbname", $username, $password);
 
-    $name_data = ROOT_PATH . 'data\loan_end.csv';
+    $name_data = ROOT_PATH . 'data\csv\loan_end.csv';
 
     $gestor = fopen($name_data, 'r');
     $delimiter = ',';
 
+    $mitad = 1;
     if ($gestor) {
         $i = 0;
 
@@ -28,6 +29,13 @@ try {
         /* fgetcsv($file_open, cant_characters (null = unlimited), $delimiter (delimitier of csv))      Devolverá False cuando se termine el archivo*/
         while (($data = fgetcsv($gestor, null, $delimiter)) != FALSE) {
             $i++;
+            if ($mitad == 1 & $i == 5000){
+                break;
+            }
+            elseif ($mitad==2 & $i <5000){
+                continue;
+            }
+
             if ($i == 1) {
                 continue;
             }
@@ -51,7 +59,7 @@ try {
             $Fully_paid = $data[16];
             $date_loan = $data[17];
 
-            if ($i == 2) {
+            if ($i == 2 || $i == 5000) {
                 $stmt->bindParam(":nam", $name, PDO::PARAM_STR);
                 $stmt->bindParam(":lstnam", $lastname, PDO::PARAM_STR);
                 $stmt->bindParam(":sex", $sex, PDO::PARAM_STR); //CHAR

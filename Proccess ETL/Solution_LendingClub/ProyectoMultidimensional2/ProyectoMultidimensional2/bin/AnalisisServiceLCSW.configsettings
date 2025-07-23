@@ -3,9 +3,9 @@
     <DataSources>
       <DataSource>
         <ID>Lending Club DW</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-B5B1VLD\MSSQLSERVER2022;Password=;User ID=;Initial Catalog=LendingClub_DW</ConnectionString>
+        <ConnectionString>Provider=SQLOLEDB.1;Data Source=Ricardo-K;Password=;User ID=;Initial Catalog=LendingClub_DW</ConnectionString>
         <ImpersonationInfo>
-          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateCurrentUser</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
@@ -23,10 +23,38 @@
       <Dimension>
         <ID>Credit History</ID>
       </Dimension>
+      <Dimension>
+        <ID>Client 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Date Loan 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Loan</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Time Credit Line 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Credit History 1</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
         <ID>Lending Club DW</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Loan</ID>
+            <Partitions>
+              <Partition>
+                <ID>Loan</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Lending Club DW 1</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Loan</ID>

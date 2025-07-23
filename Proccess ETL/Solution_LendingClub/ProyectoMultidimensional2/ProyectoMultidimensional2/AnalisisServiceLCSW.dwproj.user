@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>DESKTOP-B5B1VLD\MSSQLSERVER2022</TargetServer>
+        <TargetServer>Ricardo-K</TargetServer>
         <TargetDatabase>ProyectoMultidimensional2</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-B5B1VLD_MSSQLSERVER2022.LendingClub_DW"
+  DTS:DTSID="{8FD57A42-3021-4B65-824D-D28E9660EE49}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-B5B1VLD\MSSQLSERVER2022;Initial Catalog=LendingClub_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-SSIS_LendingClub_DW-{8FD57A42-3021-4B65-824D-D28E9660EE49}DESKTOP-B5B1VLD\MSSQLSERVER2022.LendingClub_DW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

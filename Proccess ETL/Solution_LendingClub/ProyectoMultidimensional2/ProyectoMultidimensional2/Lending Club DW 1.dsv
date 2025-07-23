@@ -1,0 +1,187 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d50d02e4-0309-4e63-8209-ec12689073c4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Lending Club DW 1</ID>
+  <Name>Lending Club DW 1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Lending Club DW</DataSourceID>
+  <Schema>
+    <xs:schema id="Lending_x0020_Club_x0020_DW_x0020_1" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Lending_x0020_Club_x0020_DW_x0020_1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="c7c644d8-aa1e-409e-bf5e-d68fb2d4cd30">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Client" msprop:DbTableName="Client" msprop:FriendlyName="Client" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="4c07e2e0-0c16-4d20-a5e4-560e62e492b6">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Client" msprop:FriendlyName="Id_Client" msprop:DbColumnName="Id_Client" msprop:design-time-name="c60c60f1-9877-467f-bbae-9c724b939239" type="xs:int" />
+                  <xs:element name="Sex" msprop:FriendlyName="Sex" msprop:DbColumnName="Sex" msprop:design-time-name="50f1161a-b7d6-4403-9e99-b81dbb5677ce" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Log_annual_inc" msprop:FriendlyName="Log_annual_inc" msprop:DbColumnName="Log_annual_inc" msprop:design-time-name="1bb4a674-165c-403c-a10c-255c5c8522cd" type="xs:double" minOccurs="0" />
+                  <xs:element name="Dti" msprop:FriendlyName="Dti" msprop:DbColumnName="Dti" msprop:design-time-name="c5efbe80-e65d-4a81-bc5b-47596b40a881" type="xs:double" minOccurs="0" />
+                  <xs:element name="Pub_rec" msprop:FriendlyName="Pub_rec" msprop:DbColumnName="Pub_rec" msprop:design-time-name="0e876caf-465f-4ede-b74d-f0bddec60799" type="xs:short" minOccurs="0" />
+                  <xs:element name="FICO" msprop:FriendlyName="FICO" msprop:DbColumnName="FICO" msprop:design-time-name="687cf74b-7028-4fa9-b8a5-27fd3b1d0e11" type="xs:short" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_CreditHistory" msprop:DbTableName="CreditHistory" msprop:FriendlyName="CreditHistory" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="da72d876-19eb-422f-a322-2ebcedd61686">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Loan" msprop:FriendlyName="Id_Loan" msprop:DbColumnName="Id_Loan" msprop:design-time-name="9c9f8bb7-55b8-4894-bb00-3c143794cb46" type="xs:int" />
+                  <xs:element name="Id_Time_Credit" msprop:FriendlyName="Id_Time_Credit" msprop:DbColumnName="Id_Time_Credit" msprop:design-time-name="5c85201f-ed27-4a93-842c-d7c5b32960f2" type="xs:int" minOccurs="0" />
+                  <xs:element name="Revol_bal" msprop:FriendlyName="Revol_bal" msprop:DbColumnName="Revol_bal" msprop:design-time-name="35bee37e-d42c-4c76-9ee8-d623532b16d9" type="xs:int" minOccurs="0" />
+                  <xs:element name="Revol_util" msprop:FriendlyName="Revol_util" msprop:DbColumnName="Revol_util" msprop:design-time-name="c5c3306a-33f6-4195-a6c4-eb7b4e7be46e" type="xs:double" minOccurs="0" />
+                  <xs:element name="Inq_last_6mths" msprop:FriendlyName="Inq_last_6mths" msprop:DbColumnName="Inq_last_6mths" msprop:design-time-name="1031858a-305f-4f58-90ae-a632bc0787d6" type="xs:short" minOccurs="0" />
+                  <xs:element name="Delinq_2yrs" msprop:FriendlyName="Delinq_2yrs" msprop:DbColumnName="Delinq_2yrs" msprop:design-time-name="82fc1729-96f9-4ab8-91f7-6a87741e1b46" type="xs:short" minOccurs="0" />
+                  <xs:element name="Fully_paid" msprop:FriendlyName="Fully_paid" msprop:DbColumnName="Fully_paid" msprop:design-time-name="43f6f70a-1865-49f4-89cf-dd3dc332dd7c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DateLoan" msprop:DbTableName="DateLoan" msprop:FriendlyName="DateLoan" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="be4bd361-97b1-43d1-ae9a-97c1c34c95e9">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Date" msprop:FriendlyName="Id_Date" msprop:DbColumnName="Id_Date" msprop:design-time-name="807d112e-d720-4330-8089-7ae8baff7c12" type="xs:int" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="81ecbbc3-8675-4c5b-8249-9efe846d4702" type="xs:short" minOccurs="0" />
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="86284020-ad86-4223-8ea6-41446be3ab88" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="0eadb62f-f36b-4269-89ff-0a64b3ddc56e" type="xs:short" minOccurs="0" />
+                  <xs:element name="Month_description" msprop:FriendlyName="Month_description" msprop:DbColumnName="Month_description" msprop:design-time-name="cf9daccd-d99a-4071-b0c2-97d20483c169" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="783fe67a-9775-4328-92d8-6ed5da58bb4a" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="Day_description" msprop:FriendlyName="Day_description" msprop:DbColumnName="Day_description" msprop:design-time-name="4a54e176-010b-4f57-a0df-86507fc1da53" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Loan" msprop:DbTableName="Loan" msprop:FriendlyName="Loan" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="e1f36877-4d68-463a-86f7-a615586d2e20">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Loan" msprop:FriendlyName="Id_Loan" msprop:DbColumnName="Id_Loan" msprop:design-time-name="87c648ae-afe1-4334-bae3-2a09dc45c9e5" type="xs:int" />
+                  <xs:element name="Id_Client" msprop:FriendlyName="Id_Client" msprop:DbColumnName="Id_Client" msprop:design-time-name="4f8b0595-5bd4-47f5-9f56-90c9176033e9" type="xs:int" minOccurs="0" />
+                  <xs:element name="Id_Date" msprop:FriendlyName="Id_Date" msprop:DbColumnName="Id_Date" msprop:design-time-name="24c9b565-cf80-42ab-b7ed-87dea561dbb3" type="xs:int" minOccurs="0" />
+                  <xs:element name="Purpose" msprop:FriendlyName="Purpose" msprop:DbColumnName="Purpose" msprop:design-time-name="65a37565-b71d-4751-a916-e03bbeb1ee21" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Credit_policy" msprop:FriendlyName="Credit_policy" msprop:DbColumnName="Credit_policy" msprop:design-time-name="806859e8-2eb6-4cfa-8dbc-ad42184b0544" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Int_Rate" msprop:FriendlyName="Int_Rate" msprop:DbColumnName="Int_Rate" msprop:design-time-name="46219bd0-acb4-4d18-a850-f7e27a41c61e" type="xs:double" minOccurs="0" />
+                  <xs:element name="Fee" msprop:FriendlyName="Fee" msprop:DbColumnName="Fee" msprop:design-time-name="e2b20ee7-ec64-42dd-a586-9867e1eeff78" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TimeCreditLine" msprop:DbTableName="TimeCreditLine" msprop:FriendlyName="TimeCreditLine" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="4b37f5d3-b2a3-4037-abab-f6a46151c43f">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id_Time_Credit" msprop:FriendlyName="Id_Time_Credit" msprop:DbColumnName="Id_Time_Credit" msprop:design-time-name="ee5d541b-1e04-4d9d-a0b8-dc9e6b6334f7" type="xs:int" />
+                  <xs:element name="Years_with_cr_line" msprop:FriendlyName="Years_with_cr_line" msprop:DbColumnName="Years_with_cr_line" msprop:design-time-name="260b7015-e5ba-42b1-bcab-c7b49f2ca5f0" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="Months_with_cr_line" msprop:FriendlyName="Months_with_cr_line" msprop:DbColumnName="Months_with_cr_line" msprop:design-time-name="c38bcd21-9c2a-4a8c-b8da-0e515576a586" type="xs:short" minOccurs="0" />
+                  <xs:element name="Days_with_cr_line" msprop:FriendlyName="Days_with_cr_line" msprop:DbColumnName="Days_with_cr_line" msprop:design-time-name="d6044ca2-0f64-42eb-b6f5-311a28621b8c" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Client" />
+          <xs:field xpath="Id_Client" />
+        </xs:unique>
+        <xs:unique name="dbo_CreditHistory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_CreditHistory" />
+          <xs:field xpath="Id_Loan" />
+        </xs:unique>
+        <xs:unique name="dbo_DateLoan_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DateLoan" />
+          <xs:field xpath="Id_Date" />
+        </xs:unique>
+        <xs:unique name="dbo_Loan_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Loan" />
+          <xs:field xpath="Id_Loan" />
+        </xs:unique>
+        <xs:unique name="dbo_TimeCreditLine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TimeCreditLine" />
+          <xs:field xpath="Id_Time_Credit" />
+        </xs:unique>
+        <xs:keyref name="FK_Loan_Id_Date" refer="dbo_DateLoan_Constraint1">
+          <xs:selector xpath=".//dbo_Loan" />
+          <xs:field xpath="Id_Date" />
+        </xs:keyref>
+        <xs:keyref name="FK_Loan_Id_Client" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Loan" />
+          <xs:field xpath="Id_Client" />
+        </xs:keyref>
+        <xs:keyref name="FK_CreditHistory_Id_Loan" refer="dbo_Loan_Constraint1">
+          <xs:selector xpath=".//dbo_CreditHistory" />
+          <xs:field xpath="Id_Loan" />
+        </xs:keyref>
+        <xs:keyref name="FK_CreditHistory_Id_Time_Credit" refer="dbo_TimeCreditLine_Constraint1">
+          <xs:selector xpath=".//dbo_CreditHistory" />
+          <xs:field xpath="Id_Time_Credit" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Lending_x0020_Club_x0020_DW_x0020_1 xmlns="" />
+  </Schema>
+</DataSourceView>
